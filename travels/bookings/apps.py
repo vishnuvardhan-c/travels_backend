@@ -1,9 +1,5 @@
-from django.apps import AppConfig # type: ignore
-
+from django.apps import AppConfig
 
 class BookingsConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'travels.bookings'
-
-    def ready(self):
-        import travels.bookings.signals
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "bookings"   # <---- IMPORTANT
