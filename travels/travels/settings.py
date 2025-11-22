@@ -76,10 +76,9 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_CREDENTIALS = True
 
 
-ROOT_URLCONF = 'travels.urls'
+ROOT_URLCONF = 'travels.travels.urls'
 
 
-ROOT_URLCONF = 'travels.urls'
 
 TEMPLATES = [
     {
@@ -96,7 +95,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'travels.wsgi.application'
+WSGI_APPLICATION = 'travels.travels.wsgi.application'
 
 
 # Database
